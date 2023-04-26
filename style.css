@@ -1,0 +1,122 @@
+:root {
+  --page-bg: rgb(14, 14, 58);
+  --primary: rgb(31, 66, 196);
+  --text: rgb(243, 241, 237);
+  --accent: rgb(19, 177, 164);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--page-bg);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  min-height: 1vh;
+  font-size: 16px;
+}
+
+main {
+  flex-grow: 1;
+}
+
+img {
+  max-width: 100%;;
+  align-items: right;
+}
+
+.dark {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-baseline {
+  align-items: baseline;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.gap {
+  gap: 1rem
+}
+
+
+ 
+
+
+
+.nav-logo {
+margin: .5rem .75rem;
+}
+
+.active-link {
+  color: var(--primary);
+  font-weight: bold;
+  text-decoration: underline;
+  
+}
+
+.left {
+  max-width: 46%;
+  margin: 0 1.75;
+  padding: 3rem;
+}
+
+:right {
+  max-width: 50%;
+}
+
+button{
+ text-shadow: 0 0 1px var(--text);
+ color: aliceblue; 
+ background: transparent;
+}
+
+button:hover{
+  cursor: pointer;
+  filter: brightness(1.1);
+}
+
+
+
+.fancy-button{
+  background-color: var(--primary);
+  color: var(--page-bg);
+  padding: .3rem 1rem;
+  border-radius: 5px;
+  color: aliceblue;
+ 
+}
+
+
+.link-section{
+  background-color: whitesmoke;
+  height: 80px;
+  text-align: center;
+}
+
+.bottom-section{
+  background-color: rgb(211, 230, 230);
+  text-align: center;
+  height: 150px;
+  color: black;
+  
+}
+
+
+
